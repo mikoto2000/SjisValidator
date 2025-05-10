@@ -1,6 +1,6 @@
 # SjisValidator
 
-Shft JIS の文字範囲✅バリデーションを行うためのライブラリ。
+Shft JIS の文字範囲チェックバリデーションを行うためのライブラリ。
 
 
 # Usage:
