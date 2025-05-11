@@ -3,7 +3,7 @@
 Shft JIS の文字範囲チェックバリデーションを行うためのライブラリ。
 
 
-# Usage:
+## Usage:
 
 Basic usage:
 
@@ -24,20 +24,24 @@ Basic usage:
 Other sample, See test code.
 
 
-# Requirements:
+## Requirements:
 
 Java 17+
 
 
-# Install:
+## Install:
 
-TBD
+```sh
+git clone https://github.com/mikoto2000/SjisValidator.git
+cd SjisValidator
+./mvnw install
+```
 
-# License:
+## License:
 
 MIT
 
-# Author:
+## Author:
 
 mikoto2000 <mikoto2000@gmail.com>
 
