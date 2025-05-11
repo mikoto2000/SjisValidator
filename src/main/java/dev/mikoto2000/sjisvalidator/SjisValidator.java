@@ -1,4 +1,4 @@
-package dev.mikoto2000.study.charset.sjis;
+package dev.mikoto2000.sjisvalidator;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.Charset;

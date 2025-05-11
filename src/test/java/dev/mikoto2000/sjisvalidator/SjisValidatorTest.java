@@ -1,4 +1,4 @@
-package dev.mikoto2000.study.charset.sjis;
+package dev.mikoto2000.sjisvalidator;
 
 import static org.junit.jupiter.api.Assertions.*;
 
