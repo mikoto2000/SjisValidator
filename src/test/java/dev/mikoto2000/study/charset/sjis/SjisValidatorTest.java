@@ -21,9 +21,9 @@ public class SjisValidatorTest {
 
   @Test
   public void testValidation半角() {
-    final String 全角記号 = " ﾟ";
+    final String 半角 = " ﾟ";
 
-    var errors = SjisValidator.validate(全角記号, SjisValidator.VALID_AREA_HANKAKU);
+    var errors = SjisValidator.validate(半角, SjisValidator.VALID_AREA_HANKAKU);
 
     assertEquals(0, errors.size());
 
@@ -91,9 +91,9 @@ public class SjisValidatorTest {
 
   @Test
   public void testValidation第一水準漢字() {
-    final String 全角記号 = "亜腕";
+    final String 第一水準漢字 = "亜腕";
 
-    var errors = SjisValidator.validate(全角記号, SjisValidator.VALID_AREA_第一水準漢字);
+    var errors = SjisValidator.validate(第一水準漢字, SjisValidator.VALID_AREA_第一水準漢字);
 
     assertEquals(0, errors.size());
 

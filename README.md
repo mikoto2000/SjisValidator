@@ -8,8 +8,8 @@ Shft JIS の文字範囲チェックバリデーションを行うためのラ�
 Basic usage:
 
 ```java
-    final String 全角記号 = "亜腕";
-    var errors = SjisValidator.validate(全角記号, SjisValidator.VALID_AREA_第一水準漢字);
+    final String 第一水準漢字 = "亜腕";
+    var errors = SjisValidator.validate(第一水準漢字, SjisValidator.VALID_AREA_第一水準漢字);
     // => erros is empty.
 
     final String 第一水準漢字NG = "╂弌";
@@ -17,7 +17,7 @@ Basic usage:
     // => erros size is 2.
 ```
 
-See test code.
+Other sample, See test code.
 
 
 # Requirements:
