@@ -19,6 +19,13 @@ Basic usage:
     //        ValidationError[position=0, message=使用できない文字です(╂)],
     //        ValidationError[position=1, message=使用できない文字です(弌)]
     //    ]
+
+    final String 第一二水準漢字 = "亜腕弌熙";
+    var errors3 = SjisValidator.validate(
+            第一二水準漢字,
+            SjisValidator.VALID_AREA_第一水準漢字,
+            SjisValidator.VALID_AREA_第二水準漢字);
+    // => erros size is empty.
 ```
 
 Other sample, See test code.
