@@ -31,6 +31,22 @@ Java 17+
 
 ## Install:
 
+Maven の `settings.xml` に snapshot のリポジトリを追加。
+
+```xml
+    ...(snip)
+      <repository>
+        <id>snapshot</id>
+        <url>https://central.sonatype.com/repository/maven-snapshots</url>
+        <releases>
+          <enabled>true</enabled>
+        </releases>
+      </repository>
+    ...(snip)
+```
+
+または、ソースからビルドし、インストール。
+
 ```sh
 git clone https://github.com/mikoto2000/SjisValidator.git
 cd SjisValidator
